@@ -4,6 +4,7 @@ body {
     display: flex;
     flex-direction: column;
     font: Roboto;
+    
 }
 
 .header {
@@ -12,8 +13,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-left:32px;
-    padding-right: 32px;
+    padding-left:150px;
+    padding-right: 150px;
     
 }
 
@@ -34,6 +35,7 @@ a {
     font-size: 18px;
     
 }
+
 .footer {
     background-color: #1F2937;
     color: #E5E7EB;
@@ -42,4 +44,34 @@ a {
     justify-content: center;
     align-items: center;
     padding: 12px;
+}
+.part2 {
+    background-color: #1F2937;
+    padding: 150px;
+    display: flex;
+    gap: 32px;
+
+}
+
+h1 {
+    font-size:48px ;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    background-color: #3882F6;
+    padding: 16px 32px;
+    border-radius: 8px;
+    color: #E5E7EB;
+}
+
+img {
+    width: auto;
+    height: 250px;
 }
