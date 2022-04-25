@@ -65,7 +65,8 @@ p {
     color: #E5E7EB;
 }
 
-button {
+.button1,
+.button2 {
     background-color: #3882F6;
     padding: 8px 32px;
     border-radius: 8px;
@@ -167,4 +168,38 @@ transition: 1s ease;
         font-size: 18px;
     }
 
+    .section4 {
+        background-color: #f9faf8;
+        padding-left:150px;
+        padding-right:150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .inside {
+        background-color: #3882F6;
+        color: #E5E7EB;
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        margin: 100px;
     
+    }
+
+
+    .content {
+        display: flex;
+        gap: 70px;
+        
+    }
+    .action {
+        font-weight: bold;
+        font-size: 36px;;
+    }
+
+    .button2 {
+        border: 2px solid #E5E7EB;
+        
+    }
